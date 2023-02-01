@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project.vcxproj, Project3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Assembling project4.asm...
+project4.asm(39): error A2024: invalid operand size for instruction
+project4.asm(53): fatal error A1010: unmatched block nesting : greetUser
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Sg /Zi /Fo"Debug\project4.obj" /Fl"Project4.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /Taproject4.asm" exited with code 1.
